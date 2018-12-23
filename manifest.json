@@ -1,0 +1,15 @@
+{
+    "content_scripts": [ {
+        "js": [ "js/jquery.js", "js/contents.js" ],
+        "matches": [ "<all_urls>" ]
+    } ],
+    "description": "横から失礼させて頂きます",
+    "icons": {
+        "128": "icon.png"
+    },
+    "manifest_version": 2,
+    "name": "横から失礼",
+    "permissions": [ "http://*/*", "https://*/*" ],
+    "version": "1.0.0",
+    "web_accessible_resources": [ "images/*.png", "images/*.gif" ]
+}
